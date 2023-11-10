@@ -1,0 +1,27 @@
+@use '../utils/' as u;
+// Base reset
+
+*,
+::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+//Button
+button{
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    background-color: var(--yellow);
+    a{
+        text-decoration: none;
+        color: var(--deepgreen);
+        font-weight: bolder;
+        font-family: u.$font-Monserat;
+    }
+}

@@ -9,4 +9,110 @@
   --background: #ffffffe3;
   --gray: #f8f8ed;
   --red-opaque:#fd65652a;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--background);
+}
+
+header .empty-content {
+  width: 100%;
+  padding: 30px;
+  background-color: var(--yellow);
+}
+header .header-content {
+  width: 90%;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--deepgreen);
+}
+header .header-content .logo {
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: none;
+  -webkit-column-gap: 8px;
+}
+header .header-content .logo i {
+  padding: 10px;
+  border-radius: 50%;
+  color: var(--deepgreen);
+  background-color: var(--yellow);
+}
+header .header-content .logo h4 {
+  color: var(--white);
+}
+header .header-content .logo h4 span {
+  color: var(--yellow);
+}
+header .header-content .menu {
+  display: none;
+}
+header .header-content .menu .menu-icons {
+  color: var(--deepgreen);
+  padding: 8px 8px;
+  border-radius: 50%;
+  background-color: var(--yellow);
+}
+header .header-content .menu .menu-container {
+  position: absolute;
+  top: 70px;
+  right: 1px;
+  width: 100%;
+  transition: 1s;
+  margin-top: -200%;
+  background-color: var(--deepgreen);
+  display: flex;
+  flex-direction: row;
+}
+header .header-content .menu .menu-container ul {
+  width: 100%;
+}
+header .header-content .menu .menu-container ul li {
+  list-style: none;
+  color: var(--deepgreen);
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid var(--yellow);
+}
+header .header-content .menu .menu-container ul li a {
+  color: var(--white);
+  text-decoration: none;
+}
+header .header-content .menu .menu-container ul li a:hover {
+  color: var(--yellow);
+}
+
+*,
+::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  background-color: var(--yellow);
+}
+button a {
+  text-decoration: none;
+  color: var(--deepgreen);
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
 }/*# sourceMappingURL=salamacontrol.css.map */
