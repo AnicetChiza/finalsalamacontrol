@@ -1,7 +1,15 @@
 @use './variables' as u;
 
-//Pour aligner les elements verticalement
-@mixin vertical-alignement{
+//Alignement des elements verticalement
+@mixin vertical-alignment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+
+
+//Pour aligner les elements verticalement et horizontalement
+@mixin vertical-horizontal-alignement{
     display: flex;
     flex-direction: row;
     align-items: center;

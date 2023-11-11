@@ -15,7 +15,7 @@
     height: 100vh;
     text-align: center;
     padding: 20px;
-    @include vertical-alignement;
+    @include vertical-horizontal-alignement;
     div{
         color: var(--white);
         h2, p, button{
@@ -156,8 +156,7 @@ footer{
     background-color: var(--deepgreen);
     .footer-content{
         color: var(--white);
-        @include display-flex;
-        align-items: center;
+        @include vertical-alignment;
         justify-content: space-between;
         div{
             a{

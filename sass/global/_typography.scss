@@ -50,8 +50,8 @@ li{
 }
 
 
-//Button
-button{
+//Button pour la page de connexion
+.seconnecter{
     border: none;
     outline: none;
     padding: 8px 12px;
@@ -79,6 +79,7 @@ form{
             }
             input{
                 @include input-properties;
+                margin-top: 5px;
                 font-family: u.$font-Monserat;
             }
         }
@@ -93,8 +94,9 @@ form{
             font-family: u.$font-Monserat;
         }
     }
-    button{
+    .envoyer{
         width: 150px;
+        margin-top: 10px;
         @include input-properties;
         background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
         a{
