@@ -30,6 +30,7 @@ header .header-content {
   padding: 15px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   position: fixed;
   z-index: 10;
@@ -43,6 +44,7 @@ header .header-content .logo {
   -webkit-column-gap: 8px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: none;
 }
 header .header-content .logo i {
@@ -74,43 +76,6 @@ header .header-content .header-items ul .accueil {
   color: var(--yellow);
   border-bottom: 2px solid var(--yellow);
 }
-header .header-content .menu {
-  display: none;
-}
-header .header-content .menu .menu-icons {
-  color: var(--deepgreen);
-  padding: 8px 8px;
-  border-radius: 50%;
-  background-color: var(--yellow);
-}
-header .header-content .menu .menu-container {
-  position: absolute;
-  top: 70px;
-  right: 1px;
-  width: 100%;
-  transition: 1s;
-  margin-top: -200%;
-  background-color: var(--deepgreen);
-  display: flex;
-  flex-direction: row;
-}
-header .header-content .menu .menu-container ul {
-  width: 100%;
-}
-header .header-content .menu .menu-container ul li {
-  list-style: none;
-  color: var(--deepgreen);
-  text-align: center;
-  padding: 15px;
-  border-bottom: 1px solid var(--yellow);
-}
-header .header-content .menu .menu-container ul li a {
-  color: var(--white);
-  text-decoration: none;
-}
-header .header-content .menu .menu-container ul li a:hover {
-  color: var(--yellow);
-}
 
 *,
 ::after, ::before {
@@ -121,6 +86,7 @@ header .header-content .menu .menu-container ul li a:hover {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 a {
@@ -221,6 +187,44 @@ form button {
 form button a {
   color: var(--white);
   font-family: "Montserrat", sans-serif;
+}
+
+header .header-content .menu {
+  display: none;
+}
+header .header-content .menu .menu-icons {
+  color: var(--deepgreen);
+  padding: 8px 8px;
+  border-radius: 50%;
+  background-color: var(--yellow);
+}
+header .header-content .menu .menu-container {
+  position: absolute;
+  top: 70px;
+  right: 1px;
+  width: 100%;
+  transition: 1s;
+  margin-top: -200%;
+  background-color: var(--deepgreen);
+  display: flex;
+  flex-direction: row;
+}
+header .header-content .menu .menu-container ul {
+  width: 100%;
+}
+header .header-content .menu .menu-container ul li {
+  list-style: none;
+  color: var(--deepgreen);
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid var(--yellow);
+}
+header .header-content .menu .menu-container ul li a {
+  color: var(--white);
+  text-decoration: none;
+}
+header .header-content .menu .menu-container ul li a:hover {
+  color: var(--yellow);
 }
 
 .section-1 {

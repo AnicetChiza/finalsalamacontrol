@@ -1,0 +1,44 @@
+@use '../utils/' as u;
+@use '../utils/mixins' as *;
+
+//Header
+header{
+    .header-content{
+        .menu{
+            display: none;
+            .menu-icons{
+                color: var(--deepgreen);
+                padding: 8px 8px;
+                border-radius: 50%;
+                background-color: var(--yellow);
+            }
+            .menu-container{
+                position: absolute;
+                top: 70px;
+                right: 1px;
+                width: 100%;
+                transition: 1s;
+                margin-top: -200%;
+                background-color: var(--deepgreen);
+                @include display-flex;
+                ul{
+                    width: 100%;
+                    li{
+                        list-style: none;
+                        color: var(--deepgreen);
+                        text-align: center;
+                        padding: 15px;
+                        border-bottom: 1px solid var(--yellow);
+                        a{
+                            color: var(--white);
+                            text-decoration: none;
+                            &:hover{
+                                color: var(--yellow);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
