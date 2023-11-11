@@ -157,6 +157,7 @@ footer{
     .footer-content{
         color: var(--white);
         @include display-flex;
+        align-items: center;
         justify-content: space-between;
         div{
             a{

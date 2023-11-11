@@ -168,6 +168,61 @@ button a {
   font-family: "Montserrat", sans-serif;
 }
 
+form .formulaire {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 10px;
+  -webkit-column-gap: 15px;
+}
+form .formulaire div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+form .formulaire div label {
+  font-weight: bolder;
+}
+form .formulaire div input {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+  font-family: "Montserrat", sans-serif;
+}
+form .textarea {
+  gap: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  -webkit-column-gap: 10px;
+}
+form .textarea input, form .textarea textarea {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+  font-family: "Montserrat", sans-serif;
+}
+form button {
+  width: 150px;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+  background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+}
+form button a {
+  color: var(--white);
+  font-family: "Montserrat", sans-serif;
+}
+
 .section-1 {
   height: 100vh;
   background-size: cover;
@@ -341,6 +396,7 @@ footer .footer-content {
   color: var(--white);
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 footer .footer-content div a {
