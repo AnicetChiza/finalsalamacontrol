@@ -481,4 +481,27 @@ footer .top {
 
 .forgottenpassword {
   color: var(--deepgreen);
+}
+
+/*-----------------------------------------*/
+/*--------------MEDIA QUERY----------------*/
+/*-----------------------------------------*/
+@media (max-width: 978px) {
+  .section .formulaire {
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .section .formulaire {
+    width: 80%;
+  }
+}
+@media (max-width: 480px) {
+  .section {
+    padding: 20px;
+  }
+  .section .formulaire {
+    width: 100%;
+    padding: 20px;
+  }
 }/*# sourceMappingURL=salamacontrol.css.map */
