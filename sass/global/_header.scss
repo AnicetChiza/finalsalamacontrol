@@ -47,10 +47,15 @@ header{
 footer{
     padding: 15px 25px;
     background-color: var(--deepgreen);
+    .footer-item{
+        text-align: center;
+        color: var(--white);
+    }
     .footer-content{
         color: var(--white);
         @include vertical-alignment;
         justify-content: space-between;
+        margin: auto;
         div{
             a{
                 color: var(--white);

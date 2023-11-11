@@ -64,6 +64,10 @@ li{
     }
 }
 
+//Button pour se deconnecter
+.sedeconnecter{
+    @extend .seconnecter;
+}
 //Pour notre formulaire de contact
 form{
     .formulaire{

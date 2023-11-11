@@ -121,13 +121,13 @@ li {
   border: 2px solid var(--yellow);
 }
 
-.seconnecter {
+.seconnecter, .sedeconnecter {
   border: none;
   outline: none;
   padding: 8px 12px;
   background-color: var(--yellow);
 }
-.seconnecter a {
+.seconnecter a, .sedeconnecter a {
   text-decoration: none;
   color: var(--deepgreen);
   font-weight: bolder;
@@ -233,12 +233,17 @@ footer {
   padding: 15px 25px;
   background-color: var(--deepgreen);
 }
+footer .footer-item {
+  text-align: center;
+  color: var(--white);
+}
 footer .footer-content {
   color: var(--white);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin: auto;
 }
 footer .footer-content div a {
   color: var(--white);
