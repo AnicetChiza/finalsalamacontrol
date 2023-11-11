@@ -1,5 +1,13 @@
 @use './variables' as u;
 
+//Pour aligner les elements verticalement
+@mixin vertical-alignement{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 //aligner les elements horizontalement
 @mixin display-flex{
     display: flex;
@@ -35,4 +43,17 @@
     padding: 5px 8px;
     border-radius: 4px;
     box-shadow: 0px 0px 2px 0px var(--black);
+}
+
+//Pour le placement des div
+@mixin placement-div{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+@mixin title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid var(--yellow);
 }

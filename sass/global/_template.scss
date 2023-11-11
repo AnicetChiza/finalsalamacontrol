@@ -9,28 +9,31 @@ body{
     background-color: var(--background);
 }
 
+//Header
 header{
     .empty-content{
         width: 100%;
         padding: 30px;
         background-color: var(--yellow);
+        position: fixed;
+        z-index: 10;
     }
     .header-content{
         width: 90%;
         padding: 15px;
         @include display-flex;
-        align-items: center;
         justify-content: space-between;
-        position: relative;
+        position: fixed;
+        z-index: 10;
+        top: 60px;
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: var(--deepgreen);
         .logo{
             gap: 8px;
-            @include display-flex;
-            align-items: center;
-            justify-content: none;
             -webkit-column-gap: 8px;
+            @include display-flex;
+            justify-content: none;
             i{
                 padding: 10px;
                 border-radius: 50%;
@@ -41,6 +44,24 @@ header{
                 color: var(--white);
                 span{
                     color: var(--yellow);
+                }
+            }
+        }
+        .header-items{
+            ul{
+                @include display-flex;
+                gap: 15px;
+                -webkit-column-gap: 15px;
+                a{
+                    color: var(--white);
+                    &:hover{
+                        color: var(--yellow);
+                        transition: 1s;
+                    }
+                }
+                .accueil{
+                    color: var(--yellow);
+                    border-bottom: 2px solid var(--yellow);
                 }
             }
         }

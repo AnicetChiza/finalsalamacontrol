@@ -22,26 +22,28 @@ header .empty-content {
   width: 100%;
   padding: 30px;
   background-color: var(--yellow);
+  position: fixed;
+  z-index: 10;
 }
 header .header-content {
   width: 90%;
   padding: 15px;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
-  position: relative;
+  position: fixed;
+  z-index: 10;
+  top: 60px;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: var(--deepgreen);
 }
 header .header-content .logo {
   gap: 8px;
+  -webkit-column-gap: 8px;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: none;
-  -webkit-column-gap: 8px;
 }
 header .header-content .logo i {
   padding: 10px;
@@ -54,6 +56,23 @@ header .header-content .logo h4 {
 }
 header .header-content .logo h4 span {
   color: var(--yellow);
+}
+header .header-content .header-items ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  -webkit-column-gap: 15px;
+}
+header .header-content .header-items ul a {
+  color: var(--white);
+}
+header .header-content .header-items ul a:hover {
+  color: var(--yellow);
+  transition: 1s;
+}
+header .header-content .header-items ul .accueil {
+  color: var(--yellow);
+  border-bottom: 2px solid var(--yellow);
 }
 header .header-content .menu {
   display: none;
@@ -104,6 +123,38 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.connecter, .know-more {
+  padding: 10px 15px;
+  background-color: var(--deepgreen);
+  border: 2px solid var(--deepgreen);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+.connecter a, .know-more a {
+  color: var(--yellow);
+}
+.connecter:hover, .know-more:hover {
+  background-color: var(--yellow);
+  border: 2px solid var(--yellow);
+  transition: 1s;
+}
+.connecter:hover a, .know-more:hover a {
+  color: var(--deepgreen);
+}
+
+.know-more {
+  background: none;
+  border: 2px solid var(--yellow);
+}
+
 button {
   border: none;
   outline: none;
@@ -115,4 +166,256 @@ button a {
   color: var(--deepgreen);
   font-weight: bolder;
   font-family: "Montserrat", sans-serif;
+}
+
+.section-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../../Images/accueil_background_image.jpg");
+}
+
+.cover-page {
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.cover-page div {
+  color: var(--white);
+}
+.cover-page div h2, .cover-page div p, .cover-page div button {
+  margin-top: 15px;
+}
+
+section .salamacontrol {
+  background-image: url(../../Images/fond.jpg);
+}
+section .salamacontrol .salamacontrol-content {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+section .salamacontrol .salamacontrol-content h3 {
+  color: var(--deepgreen);
+}
+section .salamacontrol .salamacontrol-content h4 {
+  width: 130px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid var(--yellow);
+  margin-bottom: 0px;
+}
+section .salamacontrol .salamacontrol-content p {
+  margin-top: 10px;
+}
+section .salamacontrol .salamacontrol-content p i {
+  font-size: 30px;
+  font-style: italic;
+  color: var(--green);
+}
+
+.fonctionnalite {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+.fonctionnalite h3 {
+  color: var(--deepgreen);
+}
+.fonctionnalite h4 {
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid var(--yellow);
+}
+.fonctionnalite .fontionnalite-content {
+  display: grid;
+  gap: 15px;
+  -webkit-column-gap: 15px;
+  grid-template-columns: 1fr 1fr;
+}
+.fonctionnalite .fontionnalite-content div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  -webkit-column-gap: 10px;
+}
+.fonctionnalite .fontionnalite-content div span {
+  width: 30px;
+  height: 30px;
+  padding: 10px 15px;
+  border-radius: 100%;
+  background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+}
+
+.avantages {
+  background-color: var(--gray);
+}
+.avantages .avantages-items {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+.avantages .avantages-items h3 {
+  color: var(--deepgreen);
+}
+.avantages .avantages-items h4 {
+  width: 130px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid var(--yellow);
+}
+.avantages .avantages-items .avantages-content {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  -webkit-column-gap: 10px;
+}
+.avantages .avantages-items .avantages-content p {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 0px var(--deepgreen);
+}
+
+.contact {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+.contact h3 {
+  color: var(--deepgreen);
+}
+.contact h4 {
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid var(--yellow);
+}
+
+.suggestion {
+  background-image: url(../../Images/image.png);
+}
+.suggestion .suggestion-content {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+.suggestion .suggestion-content h3 {
+  text-align: center;
+  color: var(--deepgreen);
+}
+.suggestion .suggestion-content h4 {
+  width: 70px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid var(--yellow);
+}
+.suggestion .suggestion-content p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  color: var(--deepgreen);
+}
+.suggestion .suggestion-content div {
+  text-align: center;
+}
+.suggestion .suggestion-content div a {
+  padding: 8px 12px;
+  color: var(--white);
+  border-radius: 4px;
+  background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+}
+
+footer {
+  padding: 15px 25px;
+  background-color: var(--deepgreen);
+}
+footer .footer-content {
+  color: var(--white);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .footer-content div a {
+  color: var(--white);
+}
+footer .footer-content div i {
+  border-radius: 50%;
+  padding: 10px;
+  color: var(--deepgreen);
+  background-color: var(--yellow);
+}
+footer .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  gap: 5px;
+  -webkit-column-gap: 5px;
+  padding: 10px 10px;
+  color: var(--white);
+  position: fixed;
+  right: 0;
+  bottom: 60px;
+  cursor: pointer;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: linear-gradient(60deg, var(--deepgreen), var(--yellow));
+}
+
+.section {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section .formulaire {
+  width: 45%;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0px 0px 3px 0px var(--black);
+}
+.section .formulaire h3 {
+  text-align: center;
+  color: var(--deepgreen);
+}
+
+.section .formulaire form div {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.section .formulaire form div input {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+}
+
+.section .formulaire form div button {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: var(--deepgreen);
+}
+.section .formulaire form div button a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+}
+
+.forgottenpassword {
+  color: var(--deepgreen);
 }/*# sourceMappingURL=salamacontrol.css.map */

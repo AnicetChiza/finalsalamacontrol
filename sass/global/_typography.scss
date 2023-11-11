@@ -12,6 +12,42 @@ html{
     scroll-behavior: smooth;
 }
 
+// Pour tous les liens
+a{
+    text-decoration: none;
+}
+
+//Pour les listes li
+li{
+    list-style: none;
+}
+
+//Les bouttons sur la page d'accueil
+.connecter{
+    padding: 10px 15px;
+    background-color: var(--deepgreen);
+    border: 2px solid var(--deepgreen);
+    font-family: u.$font-Monserat;
+    font-weight: bolder;
+    a{
+        color: var(--yellow);
+    }
+    &:hover{
+        background-color: var(--yellow);
+        border: 2px solid var(--yellow);
+        transition: 1s;
+        a{
+            color: var(--deepgreen);
+        }
+    }
+}
+.know-more{
+    background: none;
+    border: 2px solid var(--yellow);
+    @extend .connecter;
+}
+
+
 //Button
 button{
     border: none;

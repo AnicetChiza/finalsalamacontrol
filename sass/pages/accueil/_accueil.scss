@@ -1,0 +1,188 @@
+@use '../../utils/' as u;
+@use '../../utils/mixins' as *;
+
+//First section
+.section-1{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../../Images/accueil_background_image.jpg');
+}
+
+//Ce contenu concerne notre page d'accueil
+.cover-page{
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    @include vertical-alignement;
+    div{
+        color: var(--white);
+        h2, p, button{
+            margin-top: 15px;
+        }
+    }
+}
+
+//Notre section va comporter les contenus de notre systeme Salama Control
+section{
+    .salamacontrol{
+        background-image: url(../../Images/fond.jpg);
+        .salamacontrol-content{
+            @include placement-div;
+            h3{
+                color: var(--deepgreen);
+            }
+            h4{
+                width: 130px;
+                @include title;
+                margin-bottom: 0px;
+            }
+            p{
+                margin-top: 10px;
+                i{
+                    font-size: 30px;
+                    font-style: italic;
+                    color: var(--green);
+                }
+            }
+        }
+    }
+}
+//Les fonctionalites de Salama Control
+.fonctionnalite{
+    @include placement-div;
+    h3{
+        color: var(--deepgreen);
+    }
+    h4{
+        width: 80px;
+        @include title;
+    }
+    .fontionnalite-content{
+        display: grid;
+        gap: 15px;
+        -webkit-column-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        div{
+            @include display-flex;
+            gap: 10px;
+            -webkit-column-gap: 10px;
+            span{
+                width: 30px;
+                height: 30px;
+                padding: 10px 15px;
+                border-radius: 100%;
+                background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+            }
+        }
+    }
+
+}
+//Les avantages de Salama Control
+.avantages{
+    background-color: var(--gray);
+    .avantages-items{
+        @include placement-div;
+        h3{
+            color: var(--deepgreen);
+        }
+        h4{
+            width: 130px;
+            @include title;
+        }
+        .avantages-content{
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            -webkit-column-gap: 10px;
+            p{
+                padding: 10px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 3px 0px var(--deepgreen);
+            }
+        }
+    }
+}
+//Contactez-nous
+.contact{
+    @include placement-div;
+    h3{
+        color: var(--deepgreen);
+    }
+    h4{
+        width: 80px;
+        @include title;
+    }
+}
+
+//Boite de suggestion
+.suggestion{
+    background-image: url(../../Images/image.png);
+    .suggestion-content{
+        @include placement-div;
+        h3{
+            text-align: center;
+            color: var(--deepgreen);
+        }
+        h4{
+            width: 70px;
+            margin: auto;
+            @include title;
+        }
+        p{
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bolder;
+            color: var(--deepgreen);
+        }
+        div{
+            text-align: center;
+            a{
+                padding: 8px 12px;
+                color: var(--white);
+                border-radius: 4px;
+                background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+            }
+        }
+    }
+
+}
+
+//Le footer de notre page qui contient deux blocs
+footer{
+    padding: 15px 25px;
+    background-color: var(--deepgreen);
+    .footer-content{
+        color: var(--white);
+        @include display-flex;
+        justify-content: space-between;
+        div{
+            a{
+                color: var(--white);
+            }
+            i{
+                border-radius: 50%;
+                padding: 10px;
+                color: var(--deepgreen);
+                background-color: var(--yellow);
+            }
+        }
+    }
+    .top{
+        @include display-flex;
+        justify-content: none;
+        gap: 5px;
+        -webkit-column-gap: 5px;
+        padding: 10px 10px;
+        color: var(--white);
+        position: fixed;
+        right: 0;
+        bottom: 60px;
+        cursor: pointer;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background: linear-gradient(60deg, var(--deepgreen), var(--yellow));
+    }
+}
