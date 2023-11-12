@@ -484,6 +484,89 @@ footer .top {
   margin-bottom: 5px;
 }
 
+.right-bloc .search_area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.right-bloc .new {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.right-bloc .new a {
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  color: var(--yellow);
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--deepgreen);
+}
+
+.right-bloc .profile .user {
+  display: flex;
+}
+.right-bloc .profile div {
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: var(--yellow);
+  padding-bottom: 10px;
+}
+.right-bloc .profile div p img {
+  margin-top: -15px;
+  margin-left: 40px;
+  border: 1px solid var(--deepgreen);
+}
+.right-bloc .profile .custom-file-input {
+  position: relative;
+  display: inline-block;
+}
+.right-bloc .profile .text {
+  margin-left: -10px;
+  padding: 0px 3px 3px 3px;
+  background-color: var(--deepgreen);
+}
+.right-bloc .profile .hidden {
+  display: none;
+}
+.right-bloc .profile label {
+  height: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--white);
+  border-radius: 5px;
+}
+.right-bloc .profile .icon {
+  margin-right: 8px;
+}
+.right-bloc .profile #fileInput {
+  display: none;
+}
+.right-bloc .formulaire div {
+  margin-top: 10px;
+  width: 80%;
+  display: grid;
+}
+.right-bloc .formulaire div input, .right-bloc .formulaire div aside .nom select, .right-bloc .formulaire aside .nom div select {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+}
+.right-bloc .formulaire aside .nom {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  -webkit-column-gap: 10px;
+}
+.right-bloc .formulaire aside .nom div {
+  margin-top: 10px;
+  display: grid;
+}
+
 .section-content .document-content {
   width: 90%;
   height: 90vh;
@@ -1127,5 +1210,63 @@ footer .top {
 @media screen and (max-width: 350px) {
   section .right-bloc #table .table_scrolling_area {
     width: 280px;
+  }
+}
+@media (max-width: 768px) {
+  .sub_menu .disconnect i {
+    display: inline;
+  }
+  .sub_menu .disconnect .btn_1 {
+    display: none;
+  }
+  section {
+    grid-template-columns: auto;
+  }
+  section .right-bloc {
+    width: 100%;
+  }
+  section .left-bloc {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .sub_menu .disconnect i {
+    display: inline;
+  }
+  .sub_menu .disconnect .btn_1 {
+    display: none;
+  }
+  .section-content {
+    grid-template-columns: 1fr;
+  }
+  .section-content .right-bloc {
+    width: 100%;
+  }
+  .section-content .left-bloc {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 492px) {
+  .right-bloc .table_scrolling_area {
+    width: 100%;
+  }
+  .right-bloc .table_scrolling_area table {
+    width: 250%;
+  }
+}
+@media screen and (max-width: 480px) and (max-width: 883px) {
+  .right-bloc .formulaire {
+    width: 100%;
+  }
+  .right-bloc .formulaire div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) and (max-width: 530px) {
+  .right-bloc .formulaire div {
+    width: 100%;
+  }
+  .right-bloc .formulaire aside .nom {
+    display: initial;
   }
 }/*# sourceMappingURL=salamacontrol.css.map */

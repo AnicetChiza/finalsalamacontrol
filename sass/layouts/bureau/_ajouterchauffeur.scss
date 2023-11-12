@@ -1,0 +1,64 @@
+@use '../../utils/' as u;
+
+@include u.breakpoint(tablet){
+  
+    .sub_menu{
+      .disconnect{
+        i{
+          display: inline;
+        }
+        .btn_1{
+          display: none;
+        }
+      } 
+    }
+
+    .section-content{
+      grid-template-columns: 1fr;
+      .right-bloc{
+        width: 100%;
+      }
+      .left-bloc{
+          display: none;
+      }
+  
+    }
+    @media screen and (max-width: 492px){
+      .right-bloc{
+        .table_scrolling_area{
+          width: 100%;
+          table{
+            width: 250%;
+          }
+        }
+      }
+    }   
+}
+
+    @include u.breakpoint(mobile){
+    @media screen and (max-width:883px) {
+      .right-bloc{
+        .formulaire {
+          width: 100%;
+          div{
+             width: 100%;
+          }
+          
+        }
+      }
+     
+    }
+    
+    @media screen and (max-width:530px) {
+        .right-bloc{
+            .formulaire {
+                div{
+                   width: 100%;
+                }
+                aside .nom {
+                   display: initial;
+                }
+            }
+        }
+    }
+}

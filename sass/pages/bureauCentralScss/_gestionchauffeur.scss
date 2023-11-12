@@ -1,0 +1,22 @@
+@use '../../utils/' as u;
+@use '../../utils/mixins' as *;
+
+.right-bloc{
+    .search_area{
+        @include display-flex;
+        justify-content: space-between;
+    }
+    .new{
+        margin-top: 25px;
+        margin-bottom: 15px;
+        a{
+            padding: 10px 20px;
+            border: none;
+            text-decoration: none;
+            border-radius: 5px;
+            color: var(--yellow);
+            font-family: u.$font-Monserat;
+            background-color: var(--deepgreen);
+        }
+    }
+}
