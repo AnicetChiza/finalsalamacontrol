@@ -328,6 +328,10 @@ header .header-content .menu .menu-container ul li a {
 header .header-content .menu .menu-container ul li a:hover {
   color: var(--yellow);
 }
+header .header-content .menu .menu-container ul .sedeconnecter {
+  width: 100%;
+  padding: 10px;
+}
 
 footer {
   padding: 15px 25px;
@@ -501,6 +505,11 @@ footer .top {
   color: var(--yellow);
   font-family: "Montserrat", sans-serif;
   background-color: var(--deepgreen);
+}
+
+.section-content .roulage-content {
+  height: 100vh;
+  overflow-x: auto;
 }
 
 .right-bloc .profile .user {
