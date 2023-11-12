@@ -745,16 +745,17 @@ footer .top {
     -webkit-column-gap: 10px;
   }
 }
-section .profile-content {
-  height: 100vh;
+.section-content .profile-content {
+  height: 90vh;
+  margin-top: 100px;
 }
-section .profile-content h3 {
+.section-content .profile-content h3 {
   padding: 10px;
   margin-top: 10px;
   text-align: center;
   background-color: var(--gray);
 }
-section .profile-content .profile-identite {
+.section-content .profile-content .profile-identite {
   width: 70%;
   border-radius: 10px;
   background-color: var(--gray);
@@ -763,29 +764,29 @@ section .profile-content .profile-identite {
   padding: 20px 20px;
   box-shadow: 0px 0px 2px 0px var(--black);
 }
-section .profile-content .profile-identite .profil {
+.section-content .profile-content .profile-identite .profil {
   display: flex;
   flex-direction: row;
   gap: 10px;
   align-items: end;
   -webkit-column-gap: 10px;
 }
-section .profile-content .profile-identite .profil h4 {
+.section-content .profile-content .profile-identite .profil h4 {
   margin-bottom: 5px;
 }
-section .profile-content .profile-identite .profil i {
+.section-content .profile-content .profile-identite .profil i {
   padding: 10px 20px;
   font-size: 50px;
   border: 1px solid var(--black);
 }
-section .profile-content .profile-identite form .email {
+.section-content .profile-content .profile-identite form .email {
   display: flex;
   flex-direction: column;
   gap: 5px;
   margin-top: 12px;
   -webkit-column-gap: 5px;
 }
-section .profile-content .profile-identite form .email input {
+.section-content .profile-content .profile-identite form .email input {
   border: none;
   outline: none;
   padding: 8px 12px;
@@ -793,17 +794,17 @@ section .profile-content .profile-identite form .email input {
   font-family: "Montserrat", sans-serif;
   box-shadow: 0px 0px 2px 0px var(--deepgreen);
 }
-section .profile-content .profile-identite form .modifier_password, section .profile-content .profile-identite form .nouveau_password {
+.section-content .profile-content .profile-identite form .modifier_password, .section-content .profile-content .profile-identite form .nouveau_password {
   margin-top: 10px;
 }
-section .profile-content .profile-identite form .modifier_password div, section .profile-content .profile-identite form .nouveau_password div {
+.section-content .profile-content .profile-identite form .modifier_password div, .section-content .profile-content .profile-identite form .nouveau_password div {
   display: flex;
   flex-direction: column;
   gap: 5px;
   margin-top: 10px;
   -webkit-column-gap: 5px;
 }
-section .profile-content .profile-identite form .modifier_password div input, section .profile-content .profile-identite form .nouveau_password div input {
+.section-content .profile-content .profile-identite form .modifier_password div input, .section-content .profile-content .profile-identite form .nouveau_password div input {
   border: none;
   outline: none;
   padding: 8px 12px;
@@ -811,11 +812,11 @@ section .profile-content .profile-identite form .modifier_password div input, se
   font-family: "Montserrat", sans-serif;
   box-shadow: 0px 0px 2px 0px var(--deepgreen);
 }
-section .profile-content .profile-identite form .nouveau_password .nouveau_password_content {
+.section-content .profile-content .profile-identite form .nouveau_password .nouveau_password_content {
   display: grid;
   grid-template-columns: auto auto;
 }
-section .profile-content .profile-identite form .nouveau_password .nouveau_password_content a {
+.section-content .profile-content .profile-identite form .nouveau_password .nouveau_password_content a {
   padding: 10px 15px;
   border-radius: 5px;
   color: var(--white);
