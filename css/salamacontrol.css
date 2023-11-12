@@ -89,7 +89,7 @@ nav {
   border-top-right-radius: 15px;
   background-color: var(--deepgreen);
 }
-nav .dashboard, nav .profile {
+nav .dashboard, nav div {
   margin-top: 10px;
   padding: 10px 20px;
   color: var(--deepgreen);
@@ -97,15 +97,15 @@ nav .dashboard, nav .profile {
   font-weight: bolder;
   background-color: var(--yellow);
 }
-nav .dashboard a, nav .profile a {
+nav .dashboard a, nav div a {
   color: var(--deepgreen);
   text-decoration: none;
 }
-nav .profile {
+nav div {
   background: none;
   border: 1px solid var(--yellow);
 }
-nav .profile a {
+nav div a {
   color: var(--yellow);
 }
 

@@ -92,7 +92,7 @@ nav{
             text-decoration: none;
         }
     }
-    .profile{
+    div{
         @extend .dashboard;
         background: none;
         border: 1px solid var(--yellow);
