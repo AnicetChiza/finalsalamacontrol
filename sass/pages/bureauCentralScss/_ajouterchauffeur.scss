@@ -13,7 +13,7 @@
             padding-bottom: 10px;
         p img{
             margin-top: -15px;
-            margin-left: 40px;
+            margin-left: 10px;
             border: 1px solid var(--deepgreen);
        }
        }
@@ -49,18 +49,19 @@
       
     }
     .formulaire {
+        @include display-column;
         div{
-            margin-top: 10px;
             input{
             @include input-properties;
            }
            width: 80%;
            display: grid;
+           gap: 5;
         }
         aside .nom {
-            gap: 10px;
+            gap: 5;
             @include display-column;
-            -webkit-column-gap: 10px;
+            -webkit-column-gap: 5px;
             
             select{
                 @extend input

@@ -60,46 +60,48 @@
             <div class="search_area">
                 <h3>Gestion des chauffeurs</h3>
             </div>
-            <div class="profile">
-                <p>Ajouter un nouveau chauffeur</p>
-                <div class="user">
-                    <p><img src="../../Images/user.jpg" alt="" width="70px"></p>
-                    <div  class="custom-file-input">
-                        <input  type="file" id="fileInput" class="hidden">
-                        <label  for="fileInput">
-                          <div class="text">
-                                <img src="../../Images/modify_icon.png" alt="" width="20px" height="20px">
-                                Modifier la photo 
+            <form action="">
+                <div class="profile">
+                    <p>Ajouter un nouveau chauffeur</p>
+                    <div class="user">
+                        <p><img src="../../Images/user.jpg" alt="" width="70px"></p>
+                        <div  class="custom-file-input">
+                            <input  type="file" id="fileInput" class="hidden">
+                            <label  for="fileInput">
+                              <div class="text">
+                                    <img src="../../Images/modify_icon.png" alt="" width="20px" height="20px">
+                                    Modifier la photo 
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="formulaire">
+                    <div>
+                        <label for="nom">Nom</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="nom">Numéro de plaque</label>
+                        <input type="text"> <br>
+                    </div>
+                    <aside class="document">
+                        <p>Documents</p>
+                        <div class="nom">
+                            <div>
+                                <label for="document">Noms</label>
+                                <select name="" id="">
+                                    <option value="choisir">Choisir un document</option>
+                                </select>
                             </div>
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="formulaire">
-                <div>
-                    <label for="nom">Nom</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="nom">Numéro de plaque</label>
-                    <input type="text"> <br>
-                </div>
-                <aside class="document">
-                    <p>Documents</p>
-                    <div class="nom">
-                        <div>
-                            <label for="document">Noms</label>
-                            <select name="" id="">
-                                <option value="choisir">Choisir un document</option>
-                            </select>
+                            <div>
+                                <label for="document">Expire le</label>
+                                <input type="date">
+                            </div>
                         </div>
-                        <div>
-                            <label for="document">Expire le</label>
-                            <input type="date">
-                        </div>
-                    </div>
-                </aside>
-            </div>
+                    </aside>
+                </div>
+            </form>
             <div id="table">
                 <div class="table_scrolling_area">
                     <table class="table">
@@ -247,7 +249,7 @@
     </footer>
 
 
-    <script src="../../js/app.js"></script>
+    <script src="../../javascript/app.js"></script>
     
 </body>
 </html>
