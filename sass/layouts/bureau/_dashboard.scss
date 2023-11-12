@@ -1,0 +1,90 @@
+@use '../../utils/' as u;
+
+@include u.breakpoint(tablet){
+  .sub_menu{
+      .disconnect{
+        i{
+          display: inline;
+        }
+        .btn_1{
+          display: none;
+        }
+      } 
+    }
+  
+    .section-content{
+      grid-template-columns: auto;
+      .right-bloc{
+        width: 100%;
+      }
+      .left-bloc{
+       display: none;
+      }
+    }
+  }
+  @include u.breakpoint(mobile){
+    .section-content{
+        .right-bloc{
+            .table_scrolling_area{
+            width: 100%;
+            //height: 62vh;
+            table{
+                width: 160%;
+            }
+            }
+        }
+    }
+    }
+  @media screen and (max-width:415px){
+    section{
+        .right-bloc{
+            .blocs{
+                display: grid;
+                gap: 0;
+                justify-content: initial;
+            }
+            .search-area{
+                div{
+                    width: 100%;
+                    input{
+                        width: 100%;
+                    }  
+                }
+            }
+        }
+    }
+    }
+  
+      @media screen and (max-width:372px){
+        section{
+            .right-bloc{
+                #table{
+                    .table_scrolling_area{
+                    width: 310px;
+                    }
+                }
+            }
+        }
+      }
+      @media screen and (max-width:361px){
+        section{
+            .right-bloc{
+                #table{
+                    .table_scrolling_area{
+                    width: 300px;
+                    }
+                }
+            }
+        }
+      }
+      @media screen and (max-width:350px){
+        section{
+            .right-bloc{
+                #table{
+                    .table_scrolling_area{
+                    width: 280px;
+                    }
+                }
+            }
+        }
+}
