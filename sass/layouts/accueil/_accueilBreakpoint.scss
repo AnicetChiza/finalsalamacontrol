@@ -3,7 +3,7 @@
 
 @include u.breakpoint(laptop){
     @media screen and (max-width: 900px){
-        section{
+        .section2{
             .salamacontrol{
                 .salamacontrol-content{
                     @include placement;
@@ -52,13 +52,6 @@
                 display: grid;
                 grid-template-columns: 1fr;
             }
-        }
-    }
-    footer{
-        .footer-content{
-            @include display-column;
-            gap: 10px;
-            -webkit-column-gap: 10px;
         }
     }
 

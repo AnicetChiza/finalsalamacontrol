@@ -311,6 +311,37 @@ footer .top {
     -webkit-column-gap: 10px;
   }
 }
+.section-content {
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+
+nav {
+  height: 100vh;
+  padding: 10px 20px;
+  border-top-right-radius: 15px;
+  background-color: var(--deepgreen);
+}
+nav .dashboard, nav .profile {
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: var(--deepgreen);
+  text-align: center;
+  font-weight: bolder;
+  background-color: var(--yellow);
+}
+nav .dashboard a, nav .profile a {
+  color: var(--deepgreen);
+  text-decoration: none;
+}
+nav .profile {
+  background: none;
+  border: 1px solid var(--yellow);
+}
+nav .profile a {
+  color: var(--yellow);
+}
+
 .section-1 {
   height: 100vh;
   background-size: cover;
@@ -335,28 +366,28 @@ footer .top {
   margin-top: 15px;
 }
 
-section .salamacontrol {
+.section2 .salamacontrol {
   background-image: url(../../Images/fond.jpg);
 }
-section .salamacontrol .salamacontrol-content {
+.section2 .salamacontrol .salamacontrol-content {
   width: 70%;
   margin: auto;
   padding: 20px;
 }
-section .salamacontrol .salamacontrol-content h3 {
+.section2 .salamacontrol .salamacontrol-content h3 {
   color: var(--deepgreen);
 }
-section .salamacontrol .salamacontrol-content h4 {
+.section2 .salamacontrol .salamacontrol-content h4 {
   width: 130px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-bottom: 3px solid var(--yellow);
   margin-bottom: 0px;
 }
-section .salamacontrol .salamacontrol-content p {
+.section2 .salamacontrol .salamacontrol-content p {
   margin-top: 10px;
 }
-section .salamacontrol .salamacontrol-content p i {
+.section2 .salamacontrol .salamacontrol-content p i {
   font-size: 30px;
   font-style: italic;
   color: var(--green);
@@ -529,7 +560,7 @@ section .salamacontrol .salamacontrol-content p i {
 }
 
 @media screen and (max-width: 978px) and (max-width: 900px) {
-  section .salamacontrol .salamacontrol-content {
+  .section2 .salamacontrol .salamacontrol-content {
     width: 90%;
     padding: 0;
     padding-top: 10px;
@@ -571,12 +602,6 @@ section .salamacontrol .salamacontrol-content p i {
   .avantages .avantages-items .avantages-content {
     display: grid;
     grid-template-columns: 1fr;
-  }
-  footer .footer-content {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    -webkit-column-gap: 10px;
   }
 }
 @media screen and (max-width: 480px) and (max-width: 380px) {
