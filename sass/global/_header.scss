@@ -15,7 +15,7 @@ header{
             .menu-container{
                 position: absolute;
                 top: 70px;
-                right: 1px;
+                right: 0.5px;
                 width: 100%;
                 transition: 1s;
                 margin-top: -200%;
@@ -81,5 +81,60 @@ footer{
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
         background: linear-gradient(60deg, var(--deepgreen), var(--yellow));
+    }
+}
+
+//Header Media query de toutes les pages
+//--------------------------------------------//
+    //---------MEDIA QUERY HEADER----------//
+//--------------------------------------------//
+@include u.breakpoint(laptop){
+    section{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    nav{
+        display: none;
+    }
+    header{
+        .header-content{
+            .header-items{
+                display: none;
+            }
+            .menu{
+                display: initial;
+                .menu-icons .icon{
+                    display: block;
+                    cursor: pointer;
+                }
+                .menu-icons .exit{
+                    display: none;
+                    cursor: pointer;
+                }
+                .menu-mobile .icon{
+                    display: none;
+                }
+                .menu-mobile .exit{
+                    display: initial;
+                }
+                .menu-mobile{
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
+//Footer Media query de toutes les pages
+//--------------------------------------------//
+    //---------MEDIA QUERY FOOTER----------//
+//--------------------------------------------//
+@include u.breakpoint(mobile){
+    footer{
+        .footer-content{
+            @include display-column;
+            gap: 10px;
+            -webkit-column-gap: 10px;
+        }
     }
 }

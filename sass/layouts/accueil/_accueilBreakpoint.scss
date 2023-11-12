@@ -3,33 +3,6 @@
 
 @include u.breakpoint(laptop){
     @media screen and (max-width: 900px){
-        header{
-            .header-content{
-                .header-items{
-                    display: none;
-                }
-                .menu{
-                    display: initial;
-                    .menu-icons .icon{
-                        display: block;
-                        cursor: pointer;
-                    }
-                    .menu-icons .exit{
-                        display: none;
-                        cursor: pointer;
-                    }
-                    .menu-mobile .icon{
-                        display: none;
-                    }
-                    .menu-mobile .exit{
-                        display: initial;
-                    }
-                    .menu-mobile{
-                        margin-top: 0;
-                    }
-                }
-            }
-        }
         section{
             .salamacontrol{
                 .salamacontrol-content{
