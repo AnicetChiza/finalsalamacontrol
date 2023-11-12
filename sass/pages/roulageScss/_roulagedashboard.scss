@@ -1,0 +1,62 @@
+@use '../../utils/' as u;
+@use '../../utils/mixins' as *;
+
+.section-content{
+    .dashboard-content{
+        height: 90vh;
+        margin-top: 100px;
+        h3{
+            @include titre-de-page;
+        }
+        .dashboard-immatricule{
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+            background-color: var(--gray);
+
+            p{
+                font-size: 20px; 
+                span{
+                    color: var(--deepgreen);
+                }
+            }
+            div{
+                margin-top: 15px;
+                input{
+                    margin-right: 10px;
+                    @include input-properties;
+                }
+                a{
+                    padding: 8px 12px;
+                    text-decoration: none;
+                    color: var(--white);
+                    border-radius: 5px;
+                    background: linear-gradient(45deg, #156064, #f8e16c);
+                }
+            }
+        }
+    }
+
+    .utilisation-content{
+        width: 60%;
+        margin: auto;
+        margin-top: 30px;
+        h4{
+            margin-top: 8px;
+            margin-bottom: 10px;
+        }
+        div{
+            @include display-flex;
+            align-items: center;
+            margin-top: 5px;
+            gap: 10px;
+            -webkit-column-gap: 10px;
+            h4{
+                padding: 12px;
+                border-radius: 50%;
+                color: var(--white);
+                background: linear-gradient(45deg, #156064, #f8e16c);
+            }
+        }
+    }
+}

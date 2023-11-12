@@ -508,6 +508,71 @@ footer .top {
   background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
 }
 
+.section-content .dashboard-content {
+  height: 90vh;
+  margin-top: 100px;
+}
+.section-content .dashboard-content h3 {
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: var(--gray);
+}
+.section-content .dashboard-content .dashboard-immatricule {
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: var(--gray);
+}
+.section-content .dashboard-content .dashboard-immatricule p {
+  font-size: 20px;
+}
+.section-content .dashboard-content .dashboard-immatricule p span {
+  color: var(--deepgreen);
+}
+.section-content .dashboard-content .dashboard-immatricule div {
+  margin-top: 15px;
+}
+.section-content .dashboard-content .dashboard-immatricule div input {
+  margin-right: 10px;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+}
+.section-content .dashboard-content .dashboard-immatricule div a {
+  padding: 8px 12px;
+  text-decoration: none;
+  color: var(--white);
+  border-radius: 5px;
+  background: linear-gradient(45deg, #156064, #f8e16c);
+}
+.section-content .utilisation-content {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+.section-content .utilisation-content h4 {
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.section-content .utilisation-content div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+  gap: 10px;
+  -webkit-column-gap: 10px;
+}
+.section-content .utilisation-content div h4 {
+  padding: 12px;
+  border-radius: 50%;
+  color: var(--white);
+  background: linear-gradient(45deg, #156064, #f8e16c);
+}
+
 .section-1 {
   height: 100vh;
   background-size: cover;
@@ -840,5 +905,33 @@ footer .top {
   .section-content .profile-content .profile-identite {
     width: 100%;
     margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 720px) {
+  .section-content .dashboard-content {
+    height: auto;
+  }
+  .section-content .dashboard-content .dashboard-immatricule div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+  }
+  .section-content .dashboard-content .dashboard-immatricule div input, .section-content .dashboard-content .dashboard-immatricule div a {
+    width: 50%;
+    margin: auto;
+  }
+  .section-content .utilisation-content {
+    width: 100%;
+    padding: 15px;
+    margin-top: auto;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 491px) {
+  .section-content .dashboard-content .dashboard-immatricule p {
+    font-size: 16px;
+  }
+  .section-content .dashboard-content .dashboard-immatricule div input, .section-content .dashboard-content .dashboard-immatricule div a {
+    width: 80%;
   }
 }/*# sourceMappingURL=salamacontrol.css.map */
