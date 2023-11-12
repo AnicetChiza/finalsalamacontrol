@@ -89,7 +89,7 @@ nav {
   border-top-right-radius: 15px;
   background-color: var(--deepgreen);
 }
-nav .dashboard, nav div {
+nav .current-page, nav div {
   margin-top: 10px;
   padding: 10px 20px;
   color: var(--deepgreen);
@@ -97,7 +97,7 @@ nav .dashboard, nav div {
   font-weight: bolder;
   background-color: var(--yellow);
 }
-nav .dashboard a, nav div a {
+nav .current-page a, nav div a {
   color: var(--deepgreen);
   text-decoration: none;
 }
