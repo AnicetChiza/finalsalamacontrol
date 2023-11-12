@@ -257,17 +257,11 @@ footer .footer-content div i {
 footer .top {
   display: flex;
   flex-direction: row;
-  justify-content: none;
+  align-items: center;
   gap: 5px;
   -webkit-column-gap: 5px;
   padding: 10px 10px;
   color: var(--white);
-  position: fixed;
-  right: 0;
-  bottom: 60px;
-  cursor: pointer;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
   background: linear-gradient(60deg, var(--deepgreen), var(--yellow));
 }
 
