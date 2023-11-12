@@ -1,0 +1,41 @@
+@use '../../utils/' as u;
+@use '../../utils/mixins' as *;
+
+@include u.breakpoint(tablet){
+    .section-content{
+        .document-content{
+            @include display-column;
+        }
+        .document-items{
+            margin: auto;
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 600px){
+        .section-content{
+            .document-content{
+                width: 100%;
+            }
+        }        
+    }
+}
+
+@include u.breakpoint(mobile){
+    @media screen and (max-width: 415px){
+        .section-content{
+            .document-content{
+                .document-items{
+                    .items{
+                        display: grid;
+                        grid-template-columns: auto auto;
+                        justify-content: stretch;
+                        text-align: center;
+                        gap: 10px;
+                        -webkit-column-gap: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

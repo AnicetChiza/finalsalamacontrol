@@ -1,0 +1,84 @@
+@use '../../utils/' as u;
+@use '../../utils/mixins' as *;
+
+.section-content{
+    .document-content{
+        width: 90%;
+        height: 90vh;
+        overflow: auto;
+        gap: 20px;
+        margin: auto;
+        margin-top: 100px;
+        padding: 15px;
+        @include display-flex;
+        -webkit-column-gap: 20px;
+        .profile {  
+            text-align: center;
+            i{
+                padding: 15px;
+                font-size: 40px;
+                border-radius: 50%;
+                background-color: var(--gray);
+            }
+        }
+    }
+    .document-items{
+        width: 70%;
+        .tous-les-documents{
+            padding: 10px 20px;
+            background-color: var(--gray);
+            box-shadow: 0px 1px 3px 0px var(--black);
+        }
+        .items{
+            margin-top: 15px;
+            @include display-flex;
+            justify-content: space-between;
+            a{
+                color: var(--deepgreen);
+                text-decoration: none;
+                padding: 5px 10px;
+                border-radius: 4px;
+                box-shadow: 0px 0px 3px 0px var(--black);
+                &:hover{
+                    background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+                }
+            }
+            .tous{
+                color: var(--white);
+                background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+            }
+        }
+
+        .document-name{
+            @extend .tous-les-documents; 
+            margin-top: 10px;
+            .document-icon{
+                @include display-flex;
+                justify-content: end;
+                .right{
+                    color: var(--green);
+                    @include icon-checkbox;
+                }
+                .incorrect{
+                    color: var(--red);
+                    @include icon-checkbox;
+                }
+            }
+            .files{
+                font-size: 30px;
+            }
+            
+            .document-name-content{
+                @include display-flex;
+                gap: 10px;
+                -webkit-column-gap: 10px;
+                .valide-document{
+                    color: var(--green);
+                }
+                .invalide-document{
+                    color: var(--red);
+                }
+            }
+        }
+    }
+}

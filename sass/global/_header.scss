@@ -89,7 +89,7 @@ footer{
     //---------MEDIA QUERY HEADER----------//
 //--------------------------------------------//
 @include u.breakpoint(laptop){
-    section{
+    .section-content{
         display: grid;
         grid-template-columns: auto;
     }
