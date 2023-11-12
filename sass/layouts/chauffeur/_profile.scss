@@ -1,0 +1,75 @@
+@use '../../utils/' as u;
+@use '../../utils/mixins' as *;
+
+section{
+    .profile-content{
+        height: 100vh;
+        h3{
+            @include titre-de-page;
+        }
+
+        .profile-identite{
+            width: 70%;
+            border-radius: 10px;
+            background-color: var(--gray);
+            margin: auto;
+            margin-top: 50px;
+            padding: 20px 20px;
+            box-shadow: 0px 0px 2px 0px var(--black);
+            .profil{
+                @include display-flex;
+                gap: 10px;
+                align-items: end;
+                -webkit-column-gap: 10px;
+                h4{
+                    margin-bottom: 5px;
+                }
+                i{
+                    padding: 10px 20px;
+                    font-size: 50px;
+                    border: 1px solid var(--black);
+                }
+            }
+
+            form{
+                .email{
+                    @include display-column;
+                    gap: 5px;
+                    margin-top: 12px;
+                    -webkit-column-gap: 5px;
+                    input{
+                        @include input-properties;
+                    }
+                }   
+                .modifier_password{
+                    margin-top: 10px;
+                    div{
+                        @include display-column;
+                        gap: 5px;
+                        margin-top: 10px;
+                        -webkit-column-gap: 5px;
+                        input{
+                            @include input-properties;
+                        }
+                    }
+                    
+                }
+                .nouveau_password{
+                    @extend .modifier_password;
+                    .nouveau_password_content{
+                        display: grid;
+                        grid-template-columns: auto auto;
+                        a{
+                            padding: 10px 15px;
+                            border-radius: 5px;
+                            color: var(--white);
+                            text-decoration: none;
+                            text-align: center;
+                            background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -744,4 +744,82 @@ footer .top {
     gap: 10px;
     -webkit-column-gap: 10px;
   }
+}
+section .profile-content {
+  height: 100vh;
+}
+section .profile-content h3 {
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: var(--gray);
+}
+section .profile-content .profile-identite {
+  width: 70%;
+  border-radius: 10px;
+  background-color: var(--gray);
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px 20px;
+  box-shadow: 0px 0px 2px 0px var(--black);
+}
+section .profile-content .profile-identite .profil {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: end;
+  -webkit-column-gap: 10px;
+}
+section .profile-content .profile-identite .profil h4 {
+  margin-bottom: 5px;
+}
+section .profile-content .profile-identite .profil i {
+  padding: 10px 20px;
+  font-size: 50px;
+  border: 1px solid var(--black);
+}
+section .profile-content .profile-identite form .email {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 12px;
+  -webkit-column-gap: 5px;
+}
+section .profile-content .profile-identite form .email input {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+}
+section .profile-content .profile-identite form .modifier_password, section .profile-content .profile-identite form .nouveau_password {
+  margin-top: 10px;
+}
+section .profile-content .profile-identite form .modifier_password div, section .profile-content .profile-identite form .nouveau_password div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  -webkit-column-gap: 5px;
+}
+section .profile-content .profile-identite form .modifier_password div input, section .profile-content .profile-identite form .nouveau_password div input {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+}
+section .profile-content .profile-identite form .nouveau_password .nouveau_password_content {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+section .profile-content .profile-identite form .nouveau_password .nouveau_password_content a {
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: var(--white);
+  text-decoration: none;
+  text-align: center;
+  background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
 }/*# sourceMappingURL=salamacontrol.css.map */
