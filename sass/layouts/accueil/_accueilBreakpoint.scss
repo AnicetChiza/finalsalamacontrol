@@ -1,0 +1,102 @@
+@use '../../utils/' as u;
+@use '../../utils/mixins' as *;
+
+@include u.breakpoint(laptop){
+    @media screen and (max-width: 900px){
+        header{
+            .header-content{
+                .header-items{
+                    display: none;
+                }
+                .menu{
+                    display: initial;
+                    .menu-icons .icon{
+                        display: block;
+                        cursor: pointer;
+                    }
+                    .menu-icons .exit{
+                        display: none;
+                        cursor: pointer;
+                    }
+                    .menu-mobile .icon{
+                        display: none;
+                    }
+                    .menu-mobile .exit{
+                        display: initial;
+                    }
+                    .menu-mobile{
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+        section{
+            .salamacontrol{
+                .salamacontrol-content{
+                    @include placement;
+                }
+            }
+        }
+        .fonctionnalite, .contact{
+            @include placement;
+        }
+        .avantages{
+            .avantages-items{
+                @include placement;
+            }
+        }
+    }
+}
+
+@include u.breakpoint(tablet){
+    @media screen and (max-width: 650px){
+        .fonctionnalite{
+            .fontionnalite-content{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+        }
+        .suggestion{
+            .suggestion-content{
+                @include placement;
+                padding-bottom: 20px
+            }
+        }
+    }
+}
+
+@include u.breakpoint(mobile){
+    form{
+        .formulaire{
+            @include display-column;
+            gap: 8px;
+            -webkit-column-gap: 8px;
+        }
+    }
+    .avantages{
+        .avantages-items{
+            .avantages-content{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+    footer{
+        .footer-content{
+            @include display-column;
+            gap: 10px;
+            -webkit-column-gap: 10px;
+        }
+    }
+
+    @media screen and (max-width: 380px){
+        .cover-page{
+            div{
+                @include display-column;
+                gap: 0;
+                -webkit-column-gap: 0;
+            }
+        }
+
+    }
+}

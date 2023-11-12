@@ -488,6 +488,88 @@ section .salamacontrol .salamacontrol-content p i {
   color: var(--deepgreen);
 }
 
+@media screen and (max-width: 978px) and (max-width: 900px) {
+  header .header-content .header-items {
+    display: none;
+  }
+  header .header-content .menu {
+    display: initial;
+  }
+  header .header-content .menu .menu-icons .icon {
+    display: block;
+    cursor: pointer;
+  }
+  header .header-content .menu .menu-icons .exit {
+    display: none;
+    cursor: pointer;
+  }
+  header .header-content .menu .menu-mobile .icon {
+    display: none;
+  }
+  header .header-content .menu .menu-mobile .exit {
+    display: initial;
+  }
+  header .header-content .menu .menu-mobile {
+    margin-top: 0;
+  }
+  section .salamacontrol .salamacontrol-content {
+    width: 90%;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .fonctionnalite, .contact {
+    width: 90%;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .avantages .avantages-items {
+    width: 90%;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 650px) {
+  .fonctionnalite .fontionnalite-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .suggestion .suggestion-content {
+    width: 90%;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 480px) {
+  form .formulaire {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    -webkit-column-gap: 8px;
+  }
+  .avantages .avantages-items .avantages-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+  }
+}
+@media screen and (max-width: 480px) and (max-width: 380px) {
+  .cover-page div {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    -webkit-column-gap: 0;
+  }
+}
 /*-----------------------------------------*/
 /*--------------MEDIA QUERY----------------*/
 /*-----------------------------------------*/

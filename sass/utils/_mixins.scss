@@ -60,6 +60,14 @@
     padding: 20px;
 }
 
+//Placement des divs pour le media query
+@mixin placement{
+    width: 90%;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 @mixin title{
     margin-top: 10px;
     margin-bottom: 10px;
