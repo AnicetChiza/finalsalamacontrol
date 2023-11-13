@@ -187,7 +187,7 @@ form .formulaire div input {
   padding: 8px 12px;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+  box-shadow: 0px 0px 2px 0px var(--bluish-green);
   margin-top: 5px;
   font-family: "Montserrat", sans-serif;
 }
@@ -204,7 +204,7 @@ form .textarea input, form .textarea textarea {
   padding: 8px 12px;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+  box-shadow: 0px 0px 2px 0px var(--bluish-green);
   font-family: "Montserrat", sans-serif;
 }
 form .envoyer {
@@ -215,7 +215,7 @@ form .envoyer {
   padding: 8px 12px;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+  box-shadow: 0px 0px 2px 0px var(--bluish-green);
   background: linear-gradient(45deg, var(--bluish-green), var(--yellow));
 }
 form .envoyer a {
@@ -442,7 +442,7 @@ footer .top {
   align-items: center;
   border-radius: 5px;
   -webkit-column-gap: 6px;
-  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+  box-shadow: 0px 0px 2px 0px var(--bluish-green);
 }
 .right-bloc .search_area div input {
   border: none;
@@ -450,7 +450,7 @@ footer .top {
   padding: 8px 12px;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+  box-shadow: 0px 0px 2px 0px var(--bluish-green);
   box-shadow: none;
   padding: 3px;
 }
@@ -467,7 +467,7 @@ footer .top {
 }
 .right-bloc .blocs .bloc1, .right-bloc .blocs .bloc3, .right-bloc .blocs .bloc2 {
   padding-top: 10px;
-  background: linear-gradient(105deg, var(--deepgreen), var(--shade-yellow));
+  background: linear-gradient(105deg, var(--bluish-green), var(--shade-yellow));
   border-radius: 8px;
   text-align: center;
 }
@@ -479,7 +479,7 @@ footer .top {
   border-bottom-left-radius: 8px;
 }
 .right-bloc .blocs .bloc2 {
-  background: linear-gradient(105deg, var(--green), var(--deepgreen));
+  background: linear-gradient(105deg, var(--green), var(--bluish-green));
 }
 .right-bloc .blocs .bloc3 {
   background: linear-gradient(90deg, var(--shade-yellow), var(--red));
@@ -504,7 +504,7 @@ footer .top {
   border-radius: 5px;
   color: var(--shade-yellow);
   font-family: "Montserrat", sans-serif;
-  background-color: var(--deepgreen);
+  background-color: var(--bluish-green);
 }
 
 .section-content .roulage-content {
@@ -524,7 +524,7 @@ footer .top {
 .right-bloc .profile div p img {
   margin-top: -15px;
   margin-left: 10px;
-  border: 1px solid var(--deepgreen);
+  border: 1px solid var(--bluish-green);
 }
 .right-bloc .profile .custom-file-input {
   position: relative;
@@ -533,7 +533,7 @@ footer .top {
 .right-bloc .profile .text {
   margin-left: -10px;
   padding: 0px 3px 3px 3px;
-  background-color: var(--deepgreen);
+  background-color: var(--bluish-green);
 }
 .right-bloc .profile .hidden {
   display: none;
@@ -567,7 +567,7 @@ footer .top {
   padding: 8px 12px;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+  box-shadow: 0px 0px 2px 0px var(--bluish-green);
 }
 .right-bloc .formulaire aside .nom {
   gap: 5;
@@ -616,18 +616,18 @@ footer .top {
   justify-content: space-between;
 }
 .section-content .document-items .items a {
-  color: var(--deepgreen);
+  color: var(--bluish-green);
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 4px;
   box-shadow: 0px 0px 3px 0px var(--black);
 }
 .section-content .document-items .items a:hover {
-  background: linear-gradient(45deg, var(--deepgreen), var(--shade-yellow));
+  background: linear-gradient(45deg, var(--bluish-green), var(--shade-yellow));
 }
 .section-content .document-items .items .tous {
   color: var(--white);
-  background: linear-gradient(45deg, var(--deepgreen), var(--shade-yellow));
+  background: linear-gradient(45deg, var(--bluish-green), var(--shade-yellow));
 }
 .section-content .document-items .document-name {
   margin-top: 10px;
@@ -712,7 +712,7 @@ footer .top {
   padding: 8px 12px;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+  box-shadow: 0px 0px 2px 0px var(--bluish-green);
 }
 .section-content .profile-content .profile-identite form .modifier_password, .section-content .profile-content .profile-identite form .nouveau_password {
   margin-top: 10px;
@@ -730,7 +730,7 @@ footer .top {
   padding: 8px 12px;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+  box-shadow: 0px 0px 2px 0px var(--bluish-green);
 }
 .section-content .profile-content .profile-identite form .nouveau_password .nouveau_password_content {
   display: grid;
@@ -742,7 +742,7 @@ footer .top {
   color: var(--white);
   text-decoration: none;
   text-align: center;
-  background: linear-gradient(45deg, var(--deepgreen), var(--shade-yellow));
+  background: linear-gradient(45deg, var(--bluish-green), var(--shade-yellow));
 }
 
 .section-content .dashboard-content {
@@ -765,7 +765,7 @@ footer .top {
   font-size: 20px;
 }
 .section-content .dashboard-content .dashboard-immatricule p span {
-  color: var(--deepgreen);
+  color: var(--bluish-green);
 }
 .section-content .dashboard-content .dashboard-immatricule div {
   margin-top: 15px;
@@ -777,14 +777,14 @@ footer .top {
   padding: 8px 12px;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+  box-shadow: 0px 0px 2px 0px var(--bluish-green);
 }
 .section-content .dashboard-content .dashboard-immatricule div a {
   padding: 8px 12px;
   text-decoration: none;
   color: var(--white);
   border-radius: 5px;
-  background: linear-gradient(45deg, var(--deepgreen), --shade-yellow);
+  background: linear-gradient(45deg, var(--bluish-green), --shade-yellow);
 }
 .section-content .utilisation-content {
   width: 60%;
@@ -807,7 +807,7 @@ footer .top {
   padding: 12px;
   border-radius: 50%;
   color: var(--white);
-  background: linear-gradient(45deg, var(--deepgreen), --shade-yellow);
+  background: linear-gradient(45deg, var(--bluish-green), --shade-yellow);
 }
 
 .section-1 {
@@ -843,7 +843,7 @@ footer .top {
   padding: 20px;
 }
 .section2 .salamacontrol .salamacontrol-content h3 {
-  color: var(--deepgreen);
+  color: var(--bluish-green);
 }
 .section2 .salamacontrol .salamacontrol-content h4 {
   width: 130px;
@@ -867,7 +867,7 @@ footer .top {
   padding: 20px;
 }
 .fonctionnalite h3 {
-  color: var(--deepgreen);
+  color: var(--bluish-green);
 }
 .fonctionnalite h4 {
   width: 80px;
@@ -892,7 +892,7 @@ footer .top {
   height: 30px;
   padding: 10px 15px;
   border-radius: 100%;
-  background: linear-gradient(45deg, var(--deepgreen), var(--shade-yellow));
+  background: linear-gradient(45deg, var(--bluish-green), var(--shade-yellow));
 }
 
 .avantages {
@@ -904,7 +904,7 @@ footer .top {
   padding: 20px;
 }
 .avantages .avantages-items h3 {
-  color: var(--deepgreen);
+  color: var(--bluish-green);
 }
 .avantages .avantages-items h4 {
   width: 130px;
@@ -922,7 +922,7 @@ footer .top {
 .avantages .avantages-items .avantages-content p {
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 0px 0px 3px 0px var(--deepgreen);
+  box-shadow: 0px 0px 3px 0px var(--bluish-green);
 }
 
 .contact {
@@ -931,7 +931,7 @@ footer .top {
   padding: 20px;
 }
 .contact h3 {
-  color: var(--deepgreen);
+  color: var(--bluish-green);
 }
 .contact h4 {
   width: 80px;
@@ -950,7 +950,7 @@ footer .top {
 }
 .suggestion .suggestion-content h3 {
   text-align: center;
-  color: var(--deepgreen);
+  color: var(--bluish-green);
 }
 .suggestion .suggestion-content h4 {
   width: 70px;
@@ -963,7 +963,7 @@ footer .top {
   text-align: center;
   margin-bottom: 20px;
   font-weight: bolder;
-  color: var(--deepgreen);
+  color: var(--bluish-green);
 }
 .suggestion .suggestion-content div {
   text-align: center;
@@ -972,7 +972,7 @@ footer .top {
   padding: 8px 12px;
   color: var(--white);
   border-radius: 4px;
-  background: linear-gradient(45deg, var(--deepgreen), var(--shade-yellow));
+  background: linear-gradient(45deg, var(--bluish-green), var(--shade-yellow));
 }
 
 .section {
@@ -992,7 +992,7 @@ footer .top {
 }
 .section .formulaire h3 {
   text-align: center;
-  color: var(--deepgreen);
+  color: var(--bluish-green);
 }
 
 .section .formulaire form div {
@@ -1006,7 +1006,7 @@ footer .top {
   padding: 8px 12px;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 0px 0px 2px 0px var(--deepgreen);
+  box-shadow: 0px 0px 2px 0px var(--bluish-green);
 }
 
 .section .formulaire form div button {
@@ -1014,7 +1014,7 @@ footer .top {
   padding: 10px;
   cursor: pointer;
   border-radius: 3px;
-  background-color: var(--deepgreen);
+  background-color: var(--bluish-green);
 }
 .section .formulaire form div button a {
   color: var(--white);
@@ -1024,7 +1024,7 @@ footer .top {
 }
 
 .forgottenpassword {
-  color: var(--deepgreen);
+  color: var(--bluish-green);
 }
 
 @media screen and (max-width: 978px) and (max-width: 900px) {

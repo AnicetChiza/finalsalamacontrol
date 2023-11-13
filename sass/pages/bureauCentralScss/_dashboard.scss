@@ -22,7 +22,7 @@
             @include vertical-alignment;
             border-radius: 5px;
             -webkit-column-gap: 6px ;
-            box-shadow: 0px 0px 2px 0px var(--deepgreen);
+            box-shadow: 0px 0px 2px 0px var(--bluish-green);
             input{
                 @include input-properties;
                 box-shadow: none;
@@ -41,7 +41,7 @@
         -webkit-column-gap: 10px;
         .bloc1{ 
             padding-top: 10px;
-            background:linear-gradient(105deg,var(--deepgreen),var(--shade-yellow));
+            background:linear-gradient(105deg,var(--bluish-green),var(--shade-yellow));
             border-radius: 8px;
             text-align: center;
             p{
@@ -54,7 +54,7 @@
         }
         .bloc2{
             @extend .bloc1;
-            background:linear-gradient(105deg, var(--green),var(--deepgreen));
+            background:linear-gradient(105deg, var(--green),var(--bluish-green));
         }
         .bloc3{
             @extend .bloc1;

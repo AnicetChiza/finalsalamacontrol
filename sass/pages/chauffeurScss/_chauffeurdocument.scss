@@ -34,18 +34,18 @@
             @include display-flex;
             justify-content: space-between;
             a{
-                color: var(--deepgreen);
+                color: var(--bluish-green);
                 text-decoration: none;
                 padding: 5px 10px;
                 border-radius: 4px;
                 box-shadow: 0px 0px 3px 0px var(--black);
                 &:hover{
-                    background: linear-gradient(45deg, var(--deepgreen), var(--shade-yellow));
+                    background: linear-gradient(45deg, var(--bluish-green), var(--shade-yellow));
                 }
             }
             .tous{
                 color: var(--white);
-                background: linear-gradient(45deg, var(--deepgreen), var(--shade-yellow));
+                background: linear-gradient(45deg, var(--bluish-green), var(--shade-yellow));
             }
         }
 

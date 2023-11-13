@@ -17,7 +17,7 @@
             p{
                 font-size: 20px; 
                 span{
-                    color: var(--deepgreen);
+                    color: var(--bluish-green);
                 }
             }
             div{
@@ -31,7 +31,7 @@
                     text-decoration: none;
                     color: var(--white);
                     border-radius: 5px;
-                    background: linear-gradient(45deg, var(--deepgreen), (--shade-yellow));
+                    background: linear-gradient(45deg, var(--bluish-green), (--shade-yellow));
                 }
             }
         }
@@ -55,7 +55,7 @@
                 padding: 12px;
                 border-radius: 50%;
                 color: var(--white);
-                background: linear-gradient(45deg, var(--deepgreen), (--shade-yellow));
+                background: linear-gradient(45deg, var(--bluish-green), (--shade-yellow));
             }
         }
     }
