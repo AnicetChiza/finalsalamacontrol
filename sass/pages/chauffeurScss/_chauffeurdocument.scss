@@ -40,12 +40,12 @@
                 border-radius: 4px;
                 box-shadow: 0px 0px 3px 0px var(--black);
                 &:hover{
-                    background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+                    background: linear-gradient(45deg, var(--deepgreen), var(--shade-yellow));
                 }
             }
             .tous{
                 color: var(--white);
-                background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+                background: linear-gradient(45deg, var(--deepgreen), var(--shade-yellow));
             }
         }
 

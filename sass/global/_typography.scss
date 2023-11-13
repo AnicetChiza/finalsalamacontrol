@@ -27,8 +27,8 @@ li{
 //Les bouttons sur la page d'accueil
 .connecter{
     padding: 10px 15px;
-    background-color: var(--deepgreen);
-    border: 2px solid var(--deepgreen);
+    background-color: var(--bluish-green);
+    border: 2px solid var(--bluish-green);
     font-family: u.$font-Monserat;
     font-weight: bolder;
     a{
@@ -39,7 +39,7 @@ li{
         border: 2px solid var(--shade-yellow);
         transition: 1s;
         a{
-            color: var(--deepgreen);
+            color: var(--bluish-green);
         }
     }
 }
@@ -58,7 +58,7 @@ li{
     background-color: var(--shade-yellow);
     a{
         text-decoration: none;
-        color: var(--deepgreen);
+        color: var(--bluish-green);
         font-weight: bolder;
         font-family: u.$font-Monserat;
     }
@@ -102,7 +102,7 @@ form{
         width: 150px;
         margin-top: 10px;
         @include input-properties;
-        background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+        background: linear-gradient(45deg, var(--bluish-green), var(--yellow));
         a{
             color: var(--white);
             font-family: u.$font-Monserat;
@@ -147,7 +147,7 @@ form{
             }
             
             button{
-                background-color: var(--deepgreen);
+                background-color: var(--bluish-green);
                 padding: 3px;
                 padding-left: 10px;
                 padding-right: 10px;
@@ -162,7 +162,7 @@ form{
                 a{
                     text-decoration: none;
                     color: var(--white);
-                    background-color: var(--deepgreen);
+                    background-color: var(--bluish-green);
                     padding: 4px 6px;
                     border-radius: 4px;
                 }

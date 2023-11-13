@@ -37,7 +37,7 @@ header .header-content {
   top: 60px;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: var(--deepgreen);
+  background-color: var(--bluish-green);
 }
 header .header-content .logo {
   gap: 8px;
@@ -50,7 +50,7 @@ header .header-content .logo {
 header .header-content .logo i {
   padding: 10px;
   border-radius: 50%;
-  color: var(--deepgreen);
+  color: var(--bluish-green);
   background-color: var(--shade-yellow);
 }
 header .header-content .logo h4 {
@@ -87,18 +87,18 @@ nav {
   padding: 10px 20px;
   margin-top: 100px;
   border-top-right-radius: 15px;
-  background-color: var(--deepgreen);
+  background-color: var(--bluish-green);
 }
 nav .current-page, nav div {
   margin-top: 10px;
   padding: 10px 20px;
-  color: var(--deepgreen);
+  color: var(--bluish-green);
   text-align: center;
   font-weight: bolder;
   background-color: var(--shade-yellow);
 }
 nav .current-page a, nav div a {
-  color: var(--deepgreen);
+  color: var(--bluish-green);
   text-decoration: none;
 }
 nav div {
@@ -131,8 +131,8 @@ li {
 
 .connecter, .know-more {
   padding: 10px 15px;
-  background-color: var(--deepgreen);
-  border: 2px solid var(--deepgreen);
+  background-color: var(--bluish-green);
+  border: 2px solid var(--bluish-green);
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
 }
@@ -145,7 +145,7 @@ li {
   transition: 1s;
 }
 .connecter:hover a, .know-more:hover a {
-  color: var(--deepgreen);
+  color: var(--bluish-green);
 }
 
 .know-more {
@@ -161,7 +161,7 @@ li {
 }
 .seconnecter a, .sedeconnecter a {
   text-decoration: none;
-  color: var(--deepgreen);
+  color: var(--bluish-green);
   font-weight: bolder;
   font-family: "Montserrat", sans-serif;
 }
@@ -216,7 +216,7 @@ form .envoyer {
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   box-shadow: 0px 0px 2px 0px var(--deepgreen);
-  background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+  background: linear-gradient(45deg, var(--bluish-green), var(--yellow));
 }
 form .envoyer a {
   color: var(--white);
@@ -256,7 +256,7 @@ form .envoyer a {
   border-radius: 5px;
 }
 .right-bloc table tbody button {
-  background-color: var(--deepgreen);
+  background-color: var(--bluish-green);
   padding: 3px;
   padding-left: 10px;
   padding-right: 10px;
@@ -271,7 +271,7 @@ form .envoyer a {
 .right-bloc table tbody tr td div a {
   text-decoration: none;
   color: var(--white);
-  background-color: var(--deepgreen);
+  background-color: var(--bluish-green);
   padding: 4px 6px;
   border-radius: 4px;
 }
@@ -295,7 +295,7 @@ header .header-content .menu {
   display: none;
 }
 header .header-content .menu .menu-icons {
-  color: var(--deepgreen);
+  color: var(--bluish-green);
   padding: 8px 8px;
   border-radius: 50%;
   background-color: var(--shade-yellow);
@@ -307,7 +307,7 @@ header .header-content .menu .menu-container {
   width: 100%;
   transition: 1s;
   margin-top: -200%;
-  background-color: var(--deepgreen);
+  background-color: var(--bluish-green);
   display: flex;
   flex-direction: row;
 }
@@ -316,7 +316,7 @@ header .header-content .menu .menu-container ul {
 }
 header .header-content .menu .menu-container ul li {
   list-style: none;
-  color: var(--deepgreen);
+  color: var(--bluish-green);
   text-align: center;
   padding: 15px;
   border-bottom: 1px solid var(--shade-yellow);
@@ -335,7 +335,7 @@ header .header-content .menu .menu-container ul .sedeconnecter {
 
 footer {
   padding: 15px 25px;
-  background-color: var(--deepgreen);
+  background-color: var(--bluish-green);
 }
 footer .footer-item {
   text-align: center;
@@ -355,7 +355,7 @@ footer .footer-content div a {
 footer .footer-content div i {
   border-radius: 50%;
   padding: 10px;
-  color: var(--deepgreen);
+  color: var(--bluish-green);
   background-color: var(--shade-yellow);
 }
 footer .top {
@@ -372,7 +372,7 @@ footer .top {
   cursor: pointer;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background: linear-gradient(60deg, var(--deepgreen), var(--shade-yellow));
+  background: linear-gradient(60deg, var(--bluish-green), var(--shade-yellow));
 }
 
 @media (max-width: 978px) {
@@ -467,7 +467,7 @@ footer .top {
 }
 .right-bloc .blocs .bloc1, .right-bloc .blocs .bloc3, .right-bloc .blocs .bloc2 {
   padding-top: 10px;
-  background: linear-gradient(105deg, var(--deepgreen), var(--yellow));
+  background: linear-gradient(105deg, var(--deepgreen), var(--shade-yellow));
   border-radius: 8px;
   text-align: center;
 }
@@ -482,7 +482,7 @@ footer .top {
   background: linear-gradient(105deg, var(--green), var(--deepgreen));
 }
 .right-bloc .blocs .bloc3 {
-  background: linear-gradient(90deg, var(--yellow), var(--red));
+  background: linear-gradient(90deg, var(--shade-yellow), var(--red));
 }
 .right-bloc .blocs .bloc1, .right-bloc .blocs .bloc2, .right-bloc .blocs .bloc3 {
   margin-bottom: 5px;
@@ -502,7 +502,7 @@ footer .top {
   border: none;
   text-decoration: none;
   border-radius: 5px;
-  color: var(--yellow);
+  color: var(--shade-yellow);
   font-family: "Montserrat", sans-serif;
   background-color: var(--deepgreen);
 }
@@ -518,7 +518,7 @@ footer .top {
 .right-bloc .profile div {
   margin-top: 30px;
   border-radius: 5px;
-  background-color: var(--yellow);
+  background-color: var(--shade-yellow);
   padding-bottom: 10px;
 }
 .right-bloc .profile div p img {
@@ -623,11 +623,11 @@ footer .top {
   box-shadow: 0px 0px 3px 0px var(--black);
 }
 .section-content .document-items .items a:hover {
-  background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+  background: linear-gradient(45deg, var(--deepgreen), var(--shade-yellow));
 }
 .section-content .document-items .items .tous {
   color: var(--white);
-  background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+  background: linear-gradient(45deg, var(--deepgreen), var(--shade-yellow));
 }
 .section-content .document-items .document-name {
   margin-top: 10px;
@@ -742,7 +742,7 @@ footer .top {
   color: var(--white);
   text-decoration: none;
   text-align: center;
-  background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+  background: linear-gradient(45deg, var(--deepgreen), var(--shade-yellow));
 }
 
 .section-content .dashboard-content {
@@ -784,7 +784,7 @@ footer .top {
   text-decoration: none;
   color: var(--white);
   border-radius: 5px;
-  background: linear-gradient(45deg, #156064, #f8e16c);
+  background: linear-gradient(45deg, var(--deepgreen), --shade-yellow);
 }
 .section-content .utilisation-content {
   width: 60%;
@@ -807,7 +807,7 @@ footer .top {
   padding: 12px;
   border-radius: 50%;
   color: var(--white);
-  background: linear-gradient(45deg, #156064, #f8e16c);
+  background: linear-gradient(45deg, var(--deepgreen), --shade-yellow);
 }
 
 .section-1 {
@@ -849,7 +849,7 @@ footer .top {
   width: 130px;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-bottom: 3px solid var(--yellow);
+  border-bottom: 3px solid var(--shade-yellow);
   margin-bottom: 0px;
 }
 .section2 .salamacontrol .salamacontrol-content p {
@@ -873,7 +873,7 @@ footer .top {
   width: 80px;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-bottom: 3px solid var(--yellow);
+  border-bottom: 3px solid var(--shade-yellow);
 }
 .fonctionnalite .fontionnalite-content {
   display: grid;
@@ -892,7 +892,7 @@ footer .top {
   height: 30px;
   padding: 10px 15px;
   border-radius: 100%;
-  background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+  background: linear-gradient(45deg, var(--deepgreen), var(--shade-yellow));
 }
 
 .avantages {
@@ -910,7 +910,7 @@ footer .top {
   width: 130px;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-bottom: 3px solid var(--yellow);
+  border-bottom: 3px solid var(--shade-yellow);
 }
 .avantages .avantages-items .avantages-content {
   margin-top: 10px;
@@ -937,7 +937,7 @@ footer .top {
   width: 80px;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-bottom: 3px solid var(--yellow);
+  border-bottom: 3px solid var(--shade-yellow);
 }
 
 .suggestion {
@@ -957,7 +957,7 @@ footer .top {
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-bottom: 3px solid var(--yellow);
+  border-bottom: 3px solid var(--shade-yellow);
 }
 .suggestion .suggestion-content p {
   text-align: center;
@@ -972,7 +972,7 @@ footer .top {
   padding: 8px 12px;
   color: var(--white);
   border-radius: 4px;
-  background: linear-gradient(45deg, var(--deepgreen), var(--yellow));
+  background: linear-gradient(45deg, var(--deepgreen), var(--shade-yellow));
 }
 
 .section {
