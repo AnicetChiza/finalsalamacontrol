@@ -32,11 +32,11 @@ li{
     font-family: u.$font-Monserat;
     font-weight: bolder;
     a{
-        color: var(--yellow);
+        color: var(--shade-yellow);
     }
     &:hover{
-        background-color: var(--yellow);
-        border: 2px solid var(--yellow);
+        background-color: var(--shade-yellow);
+        border: 2px solid var(--shade-yellow);
         transition: 1s;
         a{
             color: var(--deepgreen);
@@ -45,7 +45,7 @@ li{
 }
 .know-more{
     background: none;
-    border: 2px solid var(--yellow);
+    border: 2px solid var(--shade-yellow);
     @extend .connecter;
 }
 
@@ -55,7 +55,7 @@ li{
     border: none;
     outline: none;
     padding: 8px 12px;
-    background-color: var(--yellow);
+    background-color: var(--shade-yellow);
     a{
         text-decoration: none;
         color: var(--deepgreen);
@@ -126,7 +126,7 @@ form{
             border-bottom-left-radius: 8px;
             border-top-right-radius: 8px;
             background-color: var(--teal_color);
-            color: var(--yellow); 
+            color: var(--shade-yellow); 
         }
         tbody{
             tr td {

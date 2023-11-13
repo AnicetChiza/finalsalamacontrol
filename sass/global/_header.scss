@@ -10,7 +10,7 @@ header{
                 color: var(--deepgreen);
                 padding: 8px 8px;
                 border-radius: 50%;
-                background-color: var(--yellow);
+                background-color: var(--shade-yellow);
             }
             .menu-container{
                 position: absolute;
@@ -28,12 +28,12 @@ header{
                         color: var(--deepgreen);
                         text-align: center;
                         padding: 15px;
-                        border-bottom: 1px solid var(--yellow);
+                        border-bottom: 1px solid var(--shade-yellow);
                         a{
                             color: var(--white);
                             text-decoration: none;
                             &:hover{
-                                color: var(--yellow);
+                                color: var(--shade-yellow);
                             }
                         }
                     }
@@ -68,7 +68,7 @@ footer{
                 border-radius: 50%;
                 padding: 10px;
                 color: var(--deepgreen);
-                background-color: var(--yellow);
+                background-color: var(--shade-yellow);
             }
         }
     }
@@ -84,7 +84,7 @@ footer{
         cursor: pointer;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
-        background: linear-gradient(60deg, var(--deepgreen), var(--yellow));
+        background: linear-gradient(60deg, var(--deepgreen), var(--shade-yellow));
     }
 }
 

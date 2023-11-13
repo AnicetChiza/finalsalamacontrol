@@ -14,7 +14,7 @@ header{
     .empty-content{
         width: 100%;
         padding: 30px;
-        background-color: var(--yellow);
+        background-color: var(--shade-yellow);
         position: fixed;
         z-index: 10;
     }
@@ -38,12 +38,12 @@ header{
                 padding: 10px;
                 border-radius: 50%;
                 color: var(--deepgreen);
-                background-color: var(--yellow);
+                background-color: var(--shade-yellow);
             }
             h4{
                 color: var(--white);
                 span{
-                    color: var(--yellow);
+                    color: var(--shade-yellow);
                 }
             }
         }
@@ -55,13 +55,13 @@ header{
                 a{
                     color: var(--white);
                     &:hover{
-                        color: var(--yellow);
+                        color: var(--shade-yellow);
                         transition: 1s;
                     }
                 }
                 .accueil{
-                    color: var(--yellow);
-                    border-bottom: 2px solid var(--yellow);
+                    color: var(--shade-yellow);
+                    border-bottom: 2px solid var(--shade-yellow);
                 }
             }
         }
@@ -86,7 +86,7 @@ nav{
         color: var(--deepgreen);
         text-align: center;
         font-weight: bolder;
-        background-color: var(--yellow);
+        background-color: var(--shade-yellow);
         a{
             color: var(--deepgreen);
             text-decoration: none;
@@ -95,9 +95,9 @@ nav{
     div{
         @extend .current-page;
         background: none;
-        border: 1px solid var(--yellow);
+        border: 1px solid var(--shade-yellow);
         a{
-            color: var(--yellow);
+            color: var(--shade-yellow);
         }
     }
 }
