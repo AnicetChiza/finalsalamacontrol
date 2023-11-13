@@ -60,7 +60,7 @@
                     @include icon-checkbox;
                 }
                 .incorrect{
-                    color: var(--red);
+                    color: var(--orange-red);
                     @include icon-checkbox;
                 }
             }
@@ -76,7 +76,7 @@
                     color: var(--medium-green);
                 }
                 .invalide-document{
-                    color: var(--red);
+                    color: var(--orange-red);
                 }
             }
         }
