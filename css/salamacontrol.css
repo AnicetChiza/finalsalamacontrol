@@ -479,7 +479,7 @@ footer .top {
   border-bottom-left-radius: 8px;
 }
 .right-bloc .blocs .bloc2 {
-  background: linear-gradient(105deg, var(--green), var(--bluish-green));
+  background: linear-gradient(105deg, var(--medium-green), var(--bluish-green));
 }
 .right-bloc .blocs .bloc3 {
   background: linear-gradient(90deg, var(--shade-yellow), var(--red));
@@ -638,7 +638,7 @@ footer .top {
   justify-content: end;
 }
 .section-content .document-items .document-name .document-icon .right {
-  color: var(--green);
+  color: var(--medium-green);
   padding: 5px 8px;
   border-radius: 4px;
   box-shadow: 0px 0px 2px 0px var(--black);
@@ -659,7 +659,7 @@ footer .top {
   -webkit-column-gap: 10px;
 }
 .section-content .document-items .document-name .document-name-content .valide-document {
-  color: var(--green);
+  color: var(--medium-green);
 }
 .section-content .document-items .document-name .document-name-content .invalide-document {
   color: var(--red);
@@ -858,7 +858,7 @@ footer .top {
 .section2 .salamacontrol .salamacontrol-content p i {
   font-size: 30px;
   font-style: italic;
-  color: var(--green);
+  color: var(--medium-green);
 }
 
 .fonctionnalite {

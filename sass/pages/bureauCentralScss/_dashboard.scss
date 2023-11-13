@@ -54,7 +54,7 @@
         }
         .bloc2{
             @extend .bloc1;
-            background:linear-gradient(105deg, var(--green),var(--bluish-green));
+            background:linear-gradient(105deg, var(--medium-green),var(--bluish-green));
         }
         .bloc3{
             @extend .bloc1;
