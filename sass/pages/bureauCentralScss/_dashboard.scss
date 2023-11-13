@@ -29,7 +29,7 @@
                 padding: 3px;
             }
             i{
-                color: gray;
+                color: var(--neutral-shade);
             }
         }
     }
@@ -58,7 +58,7 @@
         }
         .bloc3{
             @extend .bloc1;
-            background:linear-gradient(90deg,var(--shade-yellow),var(--red));
+            background:linear-gradient(90deg,var(--shade-yellow),var(--0range-red));
         }
         .bloc1,.bloc2,.bloc3{
             margin-bottom: 5px;
