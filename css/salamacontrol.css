@@ -467,7 +467,7 @@ footer .top {
 }
 .right-bloc .blocs .bloc1, .right-bloc .blocs .bloc3, .right-bloc .blocs .bloc2 {
   padding-top: 10px;
-  background: linear-gradient(105deg, var(--bluish-green), var(--shade-yellow));
+  background: linear-gradient(45deg, var(--bluish-green), var(--shade-yellow));
   border-radius: 8px;
   text-align: center;
 }
@@ -482,7 +482,7 @@ footer .top {
   background: linear-gradient(105deg, var(--medium-green), var(--bluish-green));
 }
 .right-bloc .blocs .bloc3 {
-  background: linear-gradient(90deg, var(--shade-yellow), var(--0range-red));
+  background: linear-gradient(90deg, var(--shade-yellow), var(--orange-red));
 }
 .right-bloc .blocs .bloc1, .right-bloc .blocs .bloc2, .right-bloc .blocs .bloc3 {
   margin-bottom: 5px;
@@ -784,7 +784,7 @@ footer .top {
   text-decoration: none;
   color: var(--white);
   border-radius: 5px;
-  background: linear-gradient(45deg, var(--bluish-green), --shade-yellow);
+  background: linear-gradient(45deg, var(--bluish-green), var(--shade-yellow));
 }
 .section-content .utilisation-content {
   width: 60%;
@@ -807,7 +807,7 @@ footer .top {
   padding: 12px;
   border-radius: 50%;
   color: var(--white);
-  background: linear-gradient(45deg, var(--bluish-green), --shade-yellow);
+  background: linear-gradient(45deg, var(--bluish-green), var(--shade-yellow));
 }
 
 .section-1 {
